@@ -23,7 +23,7 @@ def test_type_of_res():
 
 def test_args_error():
     assert get_weather_data('') is None, \
-        " There should be one positional argument: 'place' and one keyword argument 'key_arg'"
+        " There should be one positional argument: 'place' and one keyword argument 'api_key'"
 
 
 def test_pos_arg_error():
